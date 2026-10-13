@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Choose a cat, complete cozy care quests, earn XP, and build your pink Cat Haven.">
+  <meta name="theme-color" content="#fff3fa">
+  <title>Cat Haven | Pink Quest</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <header class="topbar">
+    <div class="brand-wrap">
+      <div class="brand-mark" aria-hidden="true">🐾</div>
+      <div>
+        <p class="brand-name">Cat Haven</p>
+        <span class="brand-tag">Cozy joy studio</span>
+      </div>
+    </div>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#cats">Cats</a>
+      <a href="#play">Play</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow">Pink quest mode</span>
+        <h1>Raise the happiest little cat squad.</h1>
+        <p>
+          Step into a dreamy pink cat world where every cuddle, snack, and toy turn into
+          adorable game XP and the fluffiest victories.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#cats" class="primary-btn">Meet the cats</a>
+          <a href="#cats" class="secondary-btn">Start quest</a>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <strong>4</strong>
+            <span>cute heroes</span>
+          </div>
+          <div>
+            <strong>100%</strong>
+            <span>purr vibes</span>
+          </div>
+          <div>
+            <strong>XP</strong>
+            <span>level up</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Featured cat showcase">
+        <div class="featured-card">
+          <div class="featured-badge">Featured quest</div>
+          <div class="featured-avatar">🐈‍⬛</div>
+          <h2>Luna</h2>
+          <p>Night explorer with a pink heart and maximum sparkle energy.</p>
+          <div class="featured-meta">
+            <span>Love +120</span>
+            <span>XP boost</span>
+            <span>Golden paws</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cats" class="cat-section">
+      <div class="section-heading">
+        <span class="eyebrow dark">Our cat crew</span>
+        <h2>Choose your favorite little companion</h2>
+      </div>
+
+      <div class="cat-container">
+        <article class="cat-card" data-cat="Yuki">
+          <div class="card-image-wrap">
+            <img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=900&q=80" alt="Yuki the cat" loading="lazy" decoding="async">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Yuki</h3>
+              <span>🤍</span>
+            </div>
+            <p>Playful, calm, and always ready for a soft cuddle.</p>
+            <button type="button" class="select-btn" aria-pressed="false" onclick="chooseCat('Yuki')">Choose Yuki</button>
+          </div>
+        </article>
+
+        <article class="cat-card" data-cat="Mochi">
+          <div class="card-image-wrap">
+            <img src="https://images.unsplash.com/photo-1511044568932-338cba0ad803?auto=format&fit=crop&w=900&q=80" alt="Mochi the cat" loading="lazy" decoding="async">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Mochi</h3>
+              <span>🧡</span>
+            </div>
+            <p>Sleepy, friendly, and full of warm afternoon naps.</p>
+            <button type="button" class="select-btn" aria-pressed="false" onclick="chooseCat('Mochi')">Choose Mochi</button>
+          </div>
+        </article>
+
+        <article class="cat-card" data-cat="Luna">
+          <div class="card-image-wrap">
+            <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=900&q=80" alt="Luna the cat" loading="lazy" decoding="async">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Luna</h3>
+              <span>🖤</span>
+            </div>
+            <p>Curious, active, and endlessly brave during playtime.</p>
+            <button type="button" class="select-btn" aria-pressed="false" onclick="chooseCat('Luna')">Choose Luna</button>
+          </div>
+        </article>
+
+        <article class="cat-card" data-cat="Nori">
+          <div class="card-image-wrap">
+            <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=900&q=80" alt="Nori the cat" loading="lazy" decoding="async">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Nori</h3>
+              <span>🐈</span>
+            </div>
+            <p>Chill, affectionate, and delightfully goofy from head to tail.</p>
+            <button type="button" class="select-btn" aria-pressed="false" onclick="chooseCat('Nori')">Choose Nori</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="play" class="play-section">
+      <div class="section-heading center">
+        <span class="eyebrow dark">Play mode</span>
+        <h2>Build a happy day together</h2>
+      </div>
+
+      <div class="play-box">
+        <div class="play-visual">
+          <div id="catDisplay" class="cat-display" aria-live="polite">🐱</div>
+          <div class="pulse-ring"></div>
+        </div>
+
+        <div class="play-info">
+          <p class="status-pill" id="statusPill">Ready for cuddles</p>
+          <h3 id="catName">Choose a cat to begin!</h3>
+          <p id="catMessage">Your furry friend is waiting for you.</p>
+
+          <div class="actions">
+            <button type="button" class="action-btn" onclick="playWithCat()" aria-label="Play with your cat">
+              <span class="action-icon" aria-hidden="true">🧶</span>
+              <span class="action-copy"><strong>Play</strong><small>+18 XP · −20 energy</small></span>
+            </button>
+            <button type="button" class="action-btn" onclick="feedCat()" aria-label="Feed your cat">
+              <span class="action-icon" aria-hidden="true">🐟</span>
+              <span class="action-copy"><strong>Feed</strong><small>+12 XP · restore 24 energy</small></span>
+            </button>
+            <button type="button" class="action-btn" onclick="petCat()" aria-label="Pet your cat">
+              <span class="action-icon" aria-hidden="true">💗</span>
+              <span class="action-copy"><strong>Pet</strong><small>+10 XP · no energy cost</small></span>
+            </button>
+            <button type="button" class="action-btn" onclick="giveToy()" aria-label="Give your cat a toy">
+              <span class="action-icon" aria-hidden="true">🧸</span>
+              <span class="action-copy"><strong>Give toy</strong><small>+20 XP · −12 energy</small></span>
+            </button>
+          </div>
+
+          <div class="hud-grid">
+            <div class="hud-box">
+              <span>Level</span>
+              <strong id="level">1</strong>
+            </div>
+            <div class="hud-box">
+              <span>XP</span>
+              <strong id="xpDisplay">0/100</strong>
+              <div class="hud-meter" role="progressbar" aria-label="Experience" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+                <div id="xpBar"></div>
+              </div>
+            </div>
+            <div class="hud-box">
+              <span>Energy</span>
+              <strong id="energyDisplay">100%</strong>
+              <div class="hud-meter energy-meter" role="progressbar" aria-label="Energy" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100">
+                <div id="energyBar"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="meter-block">
+            <div class="stats-row">
+              <span>Happiness</span>
+              <strong><span id="happiness">50</span>%</strong>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Happiness" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+              <div id="happinessBar"></div>
+            </div>
+          </div>
+
+          <div class="points-row">
+            <span>Care Points</span>
+            <strong>⭐ <span id="points">0</span></strong>
+          </div>
+
+          <div class="quest-row">
+            <span>Care streak</span>
+            <strong id="streak">0 actions</strong>
+          </div>
+
+          <button class="reset-btn" type="button" onclick="resetGame()">Start over ↻</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="section-heading center">
+        <span class="eyebrow dark">Cat facts</span>
+        <h2>Little things that make feline life magical</h2>
+      </div>
+
+      <div class="facts">
+        <article class="fact-card">
+          <span>🐱</span>
+          <p>Cats sleep for long stretches, which helps them recharge for playful bursts.</p>
+        </article>
+        <article class="fact-card">
+          <span>💗</span>
+          <p>A cat’s purr can feel soothing, comforting, and wonderfully calming.</p>
+        </article>
+        <article class="fact-card">
+          <span>🐾</span>
+          <p>Each cat has a distinct personality, mood, and favorite ritual.</p>
+        </article>
+        <article class="fact-card">
+          <span>🧶</span>
+          <p>Interactive play keeps cats curious, happy, and physically engaged.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <p class="brand-name footer-brand">Cat Haven</p>
+      <p>Made with love for cat lovers everywhere.</p>
+    </div>
+    <p>Small paws, big happiness.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
