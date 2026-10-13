@@ -54,45 +54,8 @@ Cat-Haven/
 ├── index.html       # Main application interface
 ├── style.css        # Styles, layout, and animations
 ├── script.js        # Interactions and application logic
-├── assets/          # Images, icons, and other resources
 └── README.md        # Project documentation
 ```
-
-*Adjust the structure to match your actual files and folders.*
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- A modern web browser
-- Visual Studio Code (recommended)
-- Live Server extension (optional)
-
-### Installation
-
-**1. Clone the repository**
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
-
-**2. Navigate to the project directory**
-
-```bash
-cd Cat-Haven
-```
-
-**3. Open the project in Visual Studio Code**
-
-```bash
-code .
-```
-
-**4. Run the application**
-
-Open `index.html` in your browser or right-click it in VS Code and select **Open with Live Server**.
-
-No build process or package installation is needed for the basic HTML, CSS, and JavaScript version.
 
 ## 🌐 Live Application
 
@@ -102,7 +65,7 @@ No build process or package installation is needed for the basic HTML, CSS, and 
   <em>Your cozy corner of the internet awaits.</em>
 </p>
 
-**Live Demo:** Add your Render URL here once deployment is complete.
+**Live Demo:** (https://cat-haven-web-app.onrender.com/)
 
 ## 🎯 Project Objectives
 
