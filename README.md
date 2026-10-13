@@ -89,15 +89,6 @@ Cat-Haven/
 
 Contributions, suggestions, and ideas for improving Cat Haven are welcome.
 
-1. Fork the repository.
-2. Create a feature branch.
-3. Commit your changes.
-4. Submit a pull request describing your improvements.
-
-## 📜 License
-
-This project is intended for educational and personal development purposes. Add a license, such as the MIT License, if you decide to distribute the project under those terms.
-
 ## 💌 A Note from the Developer
 
 Cat Haven is a small digital escape inspired by the comfort, curiosity, and personality of cats. Its goal is simple: make browsing a little more playful and every interaction a little more delightful.
